@@ -1,0 +1,7 @@
+
+mat-form-field,
+textarea{
+    width: 100%;
+    border: auto;
+    border-color: blue;
+}

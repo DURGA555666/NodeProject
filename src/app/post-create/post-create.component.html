@@ -1,0 +1,18 @@
+<mat-card>
+
+  <form (submit)="getcontent(postForm)" #postForm="ngForm">
+
+    <mat-form-field >
+      <input matInput name="TITTLE" ngModel>
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput rows="10" cols="20" name="CONTENT" ngModel></textarea>
+    </mat-form-field>
+
+
+  <button color="primary"  mat-raised-button type="submit">Create Post</button>
+
+  </form>
+</mat-card>
+
+

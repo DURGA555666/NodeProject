@@ -1,0 +1,12 @@
+<mat-accordion>
+  <mat-expansion-panel *ngFor="let cont of List" >
+    <mat-expansion-panel-header >
+      {{cont.title}}
+    </mat-expansion-panel-header>
+    <p>
+      {{cont.content}}
+    </p>
+  </mat-expansion-panel>
+
+</mat-accordion>
+
